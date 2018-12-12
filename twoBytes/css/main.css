@@ -1,0 +1,165 @@
+body{
+	width: 100%;
+
+}
+.container{
+	width: 960px;
+}
+.header{
+	background-image: url("../img/header img bg.png");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 100vh;
+}
+
+.logo a{
+	line-height: 0.525;
+	color: #fff;
+	text-decoration: none;
+}
+
+.logo span:last-of-type{
+	font-size: 11px;
+	letter-spacing: 8.5px;
+}
+.logo span{
+	font-size: 31px;
+}
+.manu_header li{
+	display: inline-block;
+	margin-right: 19px;
+}
+.manu_header li:hover{
+	border-top: 3px solid #4acaff;
+	margin-top: -5px;
+}
+.manu_header a{
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+}
+.title_header{
+	margin-top: 230px;
+}
+.title_header h1{
+	font-size: 55px;
+	font-style: italic;
+	color: #fff;
+}
+.input_header{
+	width: 730px;
+	height: 50px;
+	border: none;
+	outline: none;
+	-webkit-border-radius: 3px; //закругление углов (Google Chrome)
+    -moz-border-radius: 3px; //закругление углов (FireFox)
+    -khtml-border-radius: 3px;
+	background-color: #fff;
+	box-shadow: 2px #e2e2e2;
+}
+.btn_header{
+	border: none;
+	border-radius: 2px;
+	width: 140px;
+    height: 50px;
+    background-color: rgb(74, 202, 255);
+    box-shadow: 2px rgb(74, 202, 255);
+    outline: none;
+    cursor: pointer;
+}
+.btn_header:hover{
+	transform: scale(1.05);
+	border-radius: 10px;
+}
+.color_check {
+	font-size: 13px;
+	font-style: italic;
+	color: #fff;
+}
+#check1{
+	width: 16px;
+	height: 16px;
+}
+.btn_location{
+	width: 250px;
+    height: 38px;
+    border-radius: 2px;
+    color: #b3b3b3;
+    background-color: #fff;
+}
+.btn_location:hover{
+	background-color: #fff;
+	color: #c7c7c7;
+}
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+
+
+.main{
+	background-color: #fff;
+	height: 590px;
+}
+.main_titl{
+	margin-top: 150px;
+}
+
+.main_titl h3{
+	font-size: 30px;
+	font-style: italic;
+	color: #585858;
+}
+.main_titl h2{
+	font-size: 45px;
+	color: #585858;
+}
+.blue_line{
+	width: 138px;
+	height: 3px;
+	margin-top: 50px;
+	border: 2px solid rgb(74, 202, 255);
+	border-radius: 1px;
+}
+
+.based_text{
+	font-size: 18px;
+	color: #585858;
+}
+.btn_more{
+	padding: 25px 33px;
+	color: #4acaff;
+	border: 2px solid #4acaff;
+	border-radius: 5px;
+	font-size: 15px;
+	margin-top: 80px;
+}
+
+.out_mail{
+	height: 445px;
+	background-color: #131c25;
+}
+.mt_out{
+	margin-top: 155px;
+	color: #fff;
+	font-size: 18px;
+}
+.mt_out h3{
+	font-size: 18px;
+}
+.enter_email{
+	background-color: #131c25;
+	height: 55px;
+	border: 2px solid rgb(74, 202, 255);
+	border-radius: 5px;
+}
+
+.footer{
+	height: 185px;
+}
+.mt{
+	margin-top: 65px;
+}
+
